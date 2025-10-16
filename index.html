@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institutional Knowledge Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>📚 Knowledge Hub</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link">Documentation</a></li>
+                    <li><a href="#" class="nav-link">Teams</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search knowledge base..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <ul class="category-list">
+                <li><a href="#" class="category-link" data-category="onboarding">👋 Onboarding</a></li>
+                <li><a href="#" class="category-link" data-category="development">💻 Development</a></li>
+                <li><a href="#" class="category-link" data-category="deployment">🚀 Deployment</a></li>
+                <li><a href="#" class="category-link" data-category="testing">🧪 Testing</a></li>
+                <li><a href="#" class="category-link" data-category="security">🔒 Security</a></li>
+                <li><a href="#" class="category-link" data-category="architecture">🏗️ Architecture</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <section class="welcome-section">
+                <h2>Welcome to the Institutional Knowledge Hub</h2>
+                <p>Scale your team's knowledge using GitHub Copilot Spaces. This platform helps you document, share, and discover institutional knowledge across your organization.</p>
+            </section>
+
+            <section class="articles-section">
+                <h3>Recent Articles</h3>
+                <div class="articles-grid" id="articlesGrid">
+                    <article class="article-card" data-category="onboarding">
+                        <div class="article-header">
+                            <span class="article-category">Onboarding</span>
+                            <span class="article-date">Oct 15, 2025</span>
+                        </div>
+                        <h4>Getting Started Guide</h4>
+                        <p>Learn how to set up your development environment and get started with our codebase.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="article-card" data-category="development">
+                        <div class="article-header">
+                            <span class="article-category">Development</span>
+                            <span class="article-date">Oct 14, 2025</span>
+                        </div>
+                        <h4>Coding Standards & Best Practices</h4>
+                        <p>Our team's coding standards and best practices for maintaining high-quality code.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="article-card" data-category="deployment">
+                        <div class="article-header">
+                            <span class="article-category">Deployment</span>
+                            <span class="article-date">Oct 13, 2025</span>
+                        </div>
+                        <h4>CI/CD Pipeline Overview</h4>
+                        <p>Understanding our continuous integration and deployment workflow.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="article-card" data-category="testing">
+                        <div class="article-header">
+                            <span class="article-category">Testing</span>
+                            <span class="article-date">Oct 12, 2025</span>
+                        </div>
+                        <h4>Testing Strategy</h4>
+                        <p>How we approach testing: unit tests, integration tests, and end-to-end testing.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="article-card" data-category="security">
+                        <div class="article-header">
+                            <span class="article-category">Security</span>
+                            <span class="article-date">Oct 11, 2025</span>
+                        </div>
+                        <h4>Security Best Practices</h4>
+                        <p>Essential security practices and guidelines for protecting our systems.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="article-card" data-category="architecture">
+                        <div class="article-header">
+                            <span class="article-category">Architecture</span>
+                            <span class="article-date">Oct 10, 2025</span>
+                        </div>
+                        <h4>System Architecture Overview</h4>
+                        <p>An overview of our system architecture and key design decisions.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <h3>Knowledge Base Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">42</div>
+                        <div class="stat-label">Total Articles</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Contributors</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Categories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">248</div>
+                        <div class="stat-label">Total Views</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Institutional Knowledge Hub. Powered by GitHub Copilot Spaces.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
